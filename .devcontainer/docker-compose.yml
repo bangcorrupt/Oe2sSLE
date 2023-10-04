@@ -12,7 +12,7 @@ services:
       - SUBFOLDER=/ #optional
       - TITLE=Webtop #optional
     volumes:
-      - /path/to/data:/config
+      - ./:/config
       #- /var/run/docker.sock:/var/run/docker.sock #optional
     ports:
       - 3000:3000
