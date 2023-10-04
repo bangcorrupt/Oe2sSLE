@@ -1,3 +1,3 @@
 {
-  "PostAttachCommand": "docker compose up --file .devcontainer/docker-compose.yml"
+  "PostAttachCommand": "docker compose --file .devcontainer/docker-compose.yml up"
 }
